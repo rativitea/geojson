@@ -9,7 +9,10 @@ environment:
 
 dependencies:
   geodesy: ^0.4.0-nullsafety.0
-  geopoint: ^1.0.0
+  geopoint:
+    git:
+      url: https://github.com/rativitea/geopoint.git
+#      path: packages/google_maps_flutter/google_maps_flutter
   iso: ^1.0.0
   pedantic: ^1.11.1
 
