@@ -8,13 +8,19 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  geodesy: ^0.4.0-nullsafety.0
+  flutter_map:
+    git:
+      url: https://github.com/rativitea/flutter_map.git
+  geodesy:
+    git:
+      url: https://github.com/rativitea/geodesy.git
   geopoint:
     git:
       url: https://github.com/rativitea/geopoint.git
 #      path: packages/google_maps_flutter/google_maps_flutter
   iso: ^1.0.0
   pedantic: ^1.11.1
+  rxdart: ^0.27.1
 
 dev_dependencies:
   extra_pedantic: ^1.4.0
